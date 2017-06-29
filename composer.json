@@ -13,6 +13,12 @@
 		}
 	],
 	"autoload": {
-		"files": ["lib/base.php"]
+		"psr-4": {
+			"App\\": "app/"
+		},
+		"files": [
+			"lib/base.php",
+			"bootstrap/helpers.php"
+		]
 	}
 }
